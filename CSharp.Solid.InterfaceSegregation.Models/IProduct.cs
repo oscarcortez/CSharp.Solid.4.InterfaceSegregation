@@ -16,5 +16,6 @@ namespace CSharp.Solid.InterfaceSegregation.Models
         string Color { get; set; }
         int Ram { get; set; }
         string Processor { get; set; }
+        bool WithAnthena { get; set; }
     }
 }

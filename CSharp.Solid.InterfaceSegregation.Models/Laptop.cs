@@ -16,5 +16,6 @@ namespace CSharp.Solid.InterfaceSegregation.Models
         public string OperatingSystem { get; set; }
         public int Ram { get; set; }
         public string Processor { get; set; }
+        public bool WithAnthena { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }
