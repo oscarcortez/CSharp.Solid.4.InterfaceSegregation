@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharp.Solid.InterfaceSegregation.Models
 {
-    public class Laptop : IProduct
+    public class Laptop : IProduct, IDevice
     {
         public decimal Price { get; set; }
         public int Stock { get; set; }
@@ -16,6 +16,5 @@ namespace CSharp.Solid.InterfaceSegregation.Models
         public string OperatingSystem { get; set; }
         public int Ram { get; set; }
         public string Processor { get; set; }
-        public bool WithAnthena { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }

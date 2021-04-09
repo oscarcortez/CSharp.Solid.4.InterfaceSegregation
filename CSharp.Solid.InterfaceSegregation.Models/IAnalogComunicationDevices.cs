@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace CSharp.Solid.InterfaceSegregation.Models
 {
-    interface IProduct
+    interface IAnalogComunicationDevices
     {
-        decimal Price { get; set; }
-        int Stock { get; set; }        
-        double Weight { get; set; }        
+        bool WithAnthena { get; set; }
     }
 }
